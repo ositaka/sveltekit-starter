@@ -12,6 +12,6 @@ collections:
   - name: 'routes'
     label: 'Pages'
     folder: 'src/routes'
-    extension: html
+    # extension: html
       - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Text', name: 'Text', widget: 'string'}
