@@ -1,5 +1,5 @@
 /* eslint-disable */
-const adapter = require('@sveltejs/adapter-static');
+const adapter = require('@sveltejs/adapter-netlify');
 const pkg = require('./package.json');
 
 /** @type {import('@sveltejs/kit').Config} */

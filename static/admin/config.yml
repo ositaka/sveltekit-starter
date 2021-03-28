@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/i18n/fr.json"
+        label: "FR Page"
+        extension: "json"
+        format: "json"
+        name: "fr"
+        fields:
+          - {label: Home, name: home, widget: object, fields: [
+              {label: Topic, name: topic, widget: text},
+              {label: Subtopic, name: subtopic, widget: string}
+            ]}
+          - {label: Test, name: test, widget: string}
