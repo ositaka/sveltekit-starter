@@ -5,13 +5,13 @@ backend:
 publish_mode: editorial_workflow
 
 # These lines should *not* be indented
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
-# public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: 'static/images/uploads' # Media files will be stored in the repo under static/images/uploads
+# public_folder: '/images/uploads' # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: "routes"
-    label: "Pages"
-    folder: "src/routes"
+  - name: 'routes'
+    label: 'Pages'
+    folder: 'src/routes'
     extension: html
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Text", name: "Text", widget: "string"}
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Text', name: 'Text', widget: 'string'}
