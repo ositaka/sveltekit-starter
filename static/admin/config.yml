@@ -20,3 +20,4 @@ collections:
               {label: Topic, name: topic, widget: text},
               {label: Subtopic, name: subtopic, widget: string}
             ]}
+          - {label: Test, name: test, widget: string}

@@ -3,19 +3,5 @@
         "topic": "Tutoriel de localisation Svelte ",
         "subtopic": "Internationalization and Localization"
     },
-    "header": {
-        "home": "Accueil",
-        "contact": "Nous contacter",
-        "about": "À propos"
-    },
-    "framework": {
-        "info": "Apprenons à faire la localisation avec ce framework JavaScript. Suivez le tutoriel et contactez-nous pour tout problème.",
-        "languages": "Won {n, plural, =0 {no awards} one {# award} other {# awards}}",
-        "rtl": "Nominated for {n, plural, =0 {no awards} one {# award} other {# awards}}",
-        "released_at": "Released {date}"
-    },
-    "footer": {
-        "line1": "Suivez les articles de localisation et apprenez-en plus sur la localisation.",
-        "line2": "Fabriqué avec Svelte et svelte-i18n"
-    }
+    "test": "Nous contacter"
  }
