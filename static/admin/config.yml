@@ -13,7 +13,8 @@ collections:
     files:
       - file: "src/i18n/fr.json"
         label: "FR Page"
-        extension: json
+        extension: "json"
+        format: "json"
         name: "fr"
         fields:
           - {label: Home, name: home, widget: object, fields: [
