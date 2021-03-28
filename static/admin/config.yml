@@ -12,10 +12,32 @@ collections:
     label: "Pages"
     files:
       - file: "src/i18n/fr.json"
-        label: "FR Page"
+        label: "Français Page"
         extension: "json"
         format: "json"
         name: "fr"
+        fields:
+          - {label: Home, name: home, widget: object, fields: [
+              {label: Topic, name: topic, widget: text},
+              {label: Subtopic, name: subtopic, widget: string}
+            ]}
+          - {label: Test, name: test, widget: string}
+      - file: "src/i18n/en.json"
+        label: "English Page"
+        extension: "json"
+        format: "json"
+        name: "en"
+        fields:
+          - {label: Home, name: home, widget: object, fields: [
+              {label: Topic, name: topic, widget: text},
+              {label: Subtopic, name: subtopic, widget: string}
+            ]}
+          - {label: Test, name: test, widget: string}
+      - file: "src/i18n/pt.json"
+        label: "Português Page"
+        extension: "json"
+        format: "json"
+        name: "pt"
         fields:
           - {label: Home, name: home, widget: object, fields: [
               {label: Topic, name: topic, widget: text},
