@@ -1,7 +1,7 @@
 {
-    "home": {
-        "topic": "Tutoriel de localisation Svelte ",
-        "subtopic": "Internationalization and Localization"
-    },
-    "test": "Nous contacter"
- }
+  "home": {
+    "topic": "Titre français",
+    "subtopic": "Ceci est mon sous-sujet ou mon texte"
+  },
+  "test": "Mon doux test"
+}
