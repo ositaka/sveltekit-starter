@@ -10,7 +10,6 @@ public_folder: /img
 collections:
   - name: "pages"
     label: "Pages"
-    extension: html
     files:
       - file: "src/i18n/fr.json"
         label: "FR Page"
