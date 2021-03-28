@@ -1,7 +1,7 @@
 {
   "home": {
-    "topic": "Titre français",
-    "subtopic": "Ceci est mon sous-sujet ou mon texte"
+    "topic": "Hello test from local",
+    "subtopic": "yes"
   },
-  "test": "Mon doux test"
+  "test": "ampther"
 }
