@@ -25,7 +25,8 @@
 
 <div class="choose-locale">
     <div class="select">
-        <select value={value} on:blur={switchLocale}>
+        <!-- svelte-ignore a11y-no-onchange -->
+        <select value={value} on:change={switchLocale}>
             <option value="en">English</option>
             <option value="pt">Português</option>
             <option value="fr">Fraiçáis</option>

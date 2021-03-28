@@ -6,6 +6,7 @@
 
 <script>
 	import { _ } from '../services/i18n';
+    import LocaleSwitcher from '$lib/LocaleSwitcher.svelte';
 	import Counter from '$lib/Counter.svelte';
 </script>
 
@@ -15,6 +16,7 @@
 <h1>Hello world!</h1>
 
 <Counter />
+<LocaleSwitcher />
 
 <style>
 	h1 {
