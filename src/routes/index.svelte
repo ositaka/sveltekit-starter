@@ -1,3 +1,9 @@
+<svelte:head>
+	<title>Home</title>
+	<meta name="description" content="The Home page description." />
+</svelte:head>
+
+
 <script>
 	import Counter from '$lib/Counter.svelte';
 </script>

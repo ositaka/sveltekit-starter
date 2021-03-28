@@ -1,3 +1,9 @@
+<svelte:head>
+	<title>About</title>
+	<meta name="description" content="The about page description." />
+</svelte:head>
+
+
 <script>
 	import Counter from '$lib/Counter.svelte';
 </script>
