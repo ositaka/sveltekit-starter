@@ -25,6 +25,7 @@
 		"node": ">= 12.17.0"
 	},
 	"dependencies": {
-		"netlify-cms-app": "^2.14.32"
+		"netlify-cms-app": "^2.14.32",
+		"svelte-i18n": "^3.3.9"
 	}
 }

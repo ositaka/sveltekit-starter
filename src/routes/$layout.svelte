@@ -1,9 +1,11 @@
 <script>
 	import Nav from '$lib/Nav.svelte';
+	import LocaleSwitcher from '$lib/LocaleSwitcher.svelte';
 </script>
 
 <header>
 	<Nav />
+	<LocaleSwitcher />
 </header>
 
 <main>
