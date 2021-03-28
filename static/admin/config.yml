@@ -4,14 +4,19 @@ backend:
 
 publish_mode: editorial_workflow
 
-# These lines should *not* be indented
-media_folder: 'static/images/uploads' # Media files will be stored in the repo under static/images/uploads
-# public_folder: '/images/uploads' # The src attribute for uploaded media will begin with /images/uploads
+media_folder: static/img
+public_folder: /img
 
 collections:
-  - name: 'routes'
-    label: 'Pages'
-    folder: 'src/routes'
-    # extension: html
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Text', name: 'Text', widget: 'string'}
+  - name: "pages"
+    label: "Pages"
+    extension: html
+    files:
+      - file: "src/i18n/fr.json"
+        label: "FR Page"
+        name: "index"
+        fields:
+          - {label: Home, name: home, widget: object, fields: [
+                {label: Topic, name: topic, widget: text},
+                {label: Subtopic, name: subtopic, widget: string}
+            ]}
