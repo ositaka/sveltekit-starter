@@ -5,14 +5,13 @@
 
 
 <script>
-	import { _ } from '../../services/i18n';
 	import Counter from '$lib/Counter.svelte';
 </script>
 
 <h1>About Page!</h1>
 
-<h1>{$_('home.topic')}</h1>
-<h2>{$_('home.subtopic')}</h2>
+<!-- <h1>{$_('home.topic')}</h1>
+<h2>{$_('home.subtopic')}</h2> -->
 <Counter />
 
 <style>

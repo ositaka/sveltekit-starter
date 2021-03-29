@@ -1,28 +1,14 @@
 <script>
 	import Nav from '$lib/Nav.svelte';
-	import { setupI18n, isLocaleLoaded, locale, dir } from '../services/i18n';
-	import LocaleSwitcher from '$lib/LocaleSwitcher.svelte';
-
-	$: if (!$isLocaleLoaded) {
-        setupI18n({ withLocale: 'en' });
-    }
-    $: { document.dir = $dir; }
 </script>
 
-{#if $isLocaleLoaded}
+<header>
+	<Nav />
+</header>
 
-	<header>
-		<Nav />
-		<LocaleSwitcher />
-	</header>
-
-	<main>
-		<slot></slot>
-	</main>
-
-{:else}
-    <p>Loading...</p>
-{/if}
+<main>
+	<slot></slot>
+</main>
 
 <style>
 	:root {
