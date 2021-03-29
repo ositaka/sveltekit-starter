@@ -5,14 +5,14 @@
 
 
 <script>
-	import Counter from '$lib/Counter.svelte';
+	import { send, receive } from '$lib/Crossfade.js';
 </script>
 
-<h1>About Page!</h1>
+<main>
 
-<!-- <h1>{$_('home.topic')}</h1>
-<h2>{$_('home.subtopic')}</h2> -->
-<Counter />
+<img style="max-width: 30vw;" out:send="{{key: 'borat'}}" in:receive="{{key: 'borat'}}" alt='Borat' src='https://apef.pt/wp-content/uploads/2020/05/placeholder.png'>
+<h1 out:send="{{key: 'h1'}}" in:receive="{{key: 'h1'}}">Hello world!</h1>
+</main>
 
 <style>
 	h1 {
@@ -30,4 +30,12 @@
 			max-width: none;
 		}
 	}
+
+main {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	padding: 1em;
+	margin: 0 auto;
+}
 </style>
