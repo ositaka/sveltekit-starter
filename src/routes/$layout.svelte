@@ -7,8 +7,6 @@
 </header>
 
 <slot />
-<img src="/img/1.png" alt="" style="visibility: hidden" />
-<img src="/img/2.png" alt="" style="visibility: hidden" />
 
 <style>
 	:root {
