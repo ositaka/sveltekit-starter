@@ -17,4 +17,4 @@ const [send, receive] = crossfade({
     }
 });
 
-export {send, receive};
+export { send, receive };

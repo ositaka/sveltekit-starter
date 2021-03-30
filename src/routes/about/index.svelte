@@ -1,17 +1,21 @@
+<script>
+	import { send, receive } from '$lib/Crossfade.js';
+</script>
+
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="The about page description." />
 </svelte:head>
 
-
-<script>
-	import { send, receive } from '$lib/Crossfade.js';
-</script>
-
 <main>
-
-<img style="max-width: 30vw;" out:send="{{key: 'borat'}}" in:receive="{{key: 'borat'}}" alt='Borat' src='https://apef.pt/wp-content/uploads/2020/05/placeholder.png'>
-<h1 out:send="{{key: 'h1'}}" in:receive="{{key: 'h1'}}">Hello world!</h1>
+	<img
+		style="max-width: 30vw;"
+		out:send={{ key: 'borat' }}
+		in:receive={{ key: 'borat' }}
+		alt="Borat"
+		src="/img/2.png"
+	/>
+	<h1 out:send={{ key: 'h1' }} in:receive={{ key: 'h1' }}>About the world!</h1>
 </main>
 
 <style>
@@ -30,12 +34,4 @@
 			max-width: none;
 		}
 	}
-
-main {
-	position: absolute;
-	width: 100%;
-	text-align: center;
-	padding: 1em;
-	margin: 0 auto;
-}
 </style>

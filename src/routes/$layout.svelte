@@ -6,7 +6,7 @@
 	<Nav />
 </header>
 
-<slot></slot>
+<slot />
 
 <style>
 	:root {
@@ -14,7 +14,15 @@
 			'Open Sans', 'Helvetica Neue', sans-serif;
 	}
 
-	:global( body ) {
+	:global(body) {
 		overflow: hidden;
+	}
+
+	:global(main) {
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		padding: 1em;
+		margin: 0 auto;
 	}
 </style>
